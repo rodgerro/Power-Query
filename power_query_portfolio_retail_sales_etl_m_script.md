@@ -164,7 +164,7 @@ in
 
 ---
 
-### 👤 Author
+
 **Rodger Roberts**  
-[LinkedIn](https://www.linkedin.com/in/rodger-roberts/) | [GitHub](https://github.com/) | [Portfolio](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/rodger-roberts/) 
 
