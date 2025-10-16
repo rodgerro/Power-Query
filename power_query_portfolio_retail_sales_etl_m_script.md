@@ -4,12 +4,12 @@ This repository contains a complete **Power Query (M)** ETL pipeline for Retail 
 
 ---
 
-## 🧩 Overview
+## Overview
 This project simulates a small‑scale **Retail Sales ETL** solution built entirely with **Power Query (M)**. It ingests CSV files from a folder, applies transformations, enriches data with a date dimension and exchange rates, and produces a clean, analytics‑ready model.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 /Retail-Sales-ETL-PowerQuery/
 ├── README.md
@@ -30,7 +30,7 @@ This project simulates a small‑scale **Retail Sales ETL** solution built entir
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. Open **Power BI Desktop** or **Excel Power Query Editor**.
 2. Create a **Blank Query** for each `.pq` file in the `/Queries` folder.
 3. Copy and paste the M script from each file.
@@ -39,7 +39,7 @@ This project simulates a small‑scale **Retail Sales ETL** solution built entir
 
 ---
 
-## ⚙️ Features
+## Features
 - Folder ingestion with schema drift handling
 - Parameterized configuration (folder path, fiscal month, base currency)
 - Reusable cleaning function
@@ -50,7 +50,7 @@ This project simulates a small‑scale **Retail Sales ETL** solution built entir
 
 ---
 
-## 🧱 Example Queries
+##  Example Queries
 ### Parameters.pq
 ```m
 let
@@ -155,7 +155,7 @@ in
 
 ---
 
-## 🏁 Portfolio Talking Points
+## Portfolio Talking Points
 - Built a **parameterized ETL** using Power Query that ingests CSVs and normalizes schema.
 - Implemented **robust error handling** and **type-safe transformations**.
 - Designed a **Dim_Calendar** with fiscal logic.
